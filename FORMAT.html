@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <div style="text-align: left;">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rosete - HTML Form Activity</title>
+    </head>
+
+    <body style="background-color:gray;" ></body>
+        <h1>HTML Form</h1>
+
+        <form action="#" method="get"> 
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>Please fill out the forms below:</p>
+            <p> <label for="fname">Name:</label><br> <input type="text" id="Name" name="Name"><br> </p>
+            <p> <label for="Email">Email:</label><br> <input type="email" id="Email" name="Email"> </p>
+        </fieldset>
+    
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+            <label for="Gender">Gender:</label><br>
+            <input type="radio" id="Male" name="gender" value="Male">
+            <label for="Male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other/LGBTQ+</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies</legend> 
+            <p>
+            <label for="Hobbies">Hobbies:</label><br>
+            <input type="checkbox" id="Reading" name="Reading" value="Reading">
+            <label for="Reading"> Reading</label><br>
+            <input type="checkbox" id="Coding" name="Coding" value="Coding">
+            <label for="Coding"> Coding</label><br>
+            <input type="checkbox" id="Gaming" name="Gaming" value="Gaming">
+            <label for="Gaming"> Gaming</label><br>
+            <input type="checkbox" id="Rollerblading" name="Rollerblading" value="Rollerblading">
+            <label for="Rollerblading"> Rollerblading</label><br>
+            <input type="checkbox" id="Gardening" name="Gardening" value="Gardening">
+            <label for="Gardening"> Gardening</label><br>
+            <input type="checkbox" id="Bowling" name="Bowling" value="Bowling">
+            <label for="Bowling"> Bowling</label><br>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Comments</legend>
+            <p>
+            <label for="message">Additional Comments:</label><br>
+            <textarea id="message" name="message" rows="5" cols="50" placeholder="Please enter additional comments here..."></textarea><br><br>
+            </p>
+        </fieldset>
+
+            <p> <input type="submit" value="Submit"> </p>
+        </form>
+
+    </body> 
+
+</html>
